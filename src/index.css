@@ -331,3 +331,79 @@ footer {
     width: fit-content;
   }
 }
+
+/* FORM PAGE STYLING */
+.form-page {
+  padding: 40px 20px;
+  background-color: #f5fff7;
+  min-height: 100vh;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0a7a0a;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+}
+
+.response-box {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.response-box pre {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}

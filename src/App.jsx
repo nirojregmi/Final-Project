@@ -1,27 +1,14 @@
 import React from 'react'
-import TopBar from './components/TopBar'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import FeaturedDestinations from './components/FeaturedDestinations'
-import TourSection from './components/TourSection'
-import DiscountSection from './components/DiscountSection'
-import ContactSection from './components/ContactSection'
-import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import FormPage from './pages/FormPage'
 
 function App() {
   return (
-    <>
-      <TopBar />
-      <Navbar />
-      <main>
-        <Hero />
-        <FeaturedDestinations />
-        <TourSection />
-        <DiscountSection />
-        <ContactSection />
-      </main>
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/form" element={<FormPage />} />
+    </Routes>
   )
 }
 
