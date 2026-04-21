@@ -53,7 +53,7 @@ function FormPage() {
     try {
       setLoading(true)
 
-      const response = await fetch('http://192.168.1.200:3000/api/bookings', {
+      const response = await fetch('http://192.168.1.200:5000/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
